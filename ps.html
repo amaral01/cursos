@@ -32,10 +32,30 @@
     <strong>get-command *???-host</strong>
     Lista os comand-lets que nerminam com -host que tenham 3 letras<br>
 
-    
+    <strong>Get-help Get-Host parametros</strong>
+        Get-Help
+        [[-Name] <String>]<br>
+        [-Path <String>]<br>
+        [-Category <String[]>]<br>
+        [-Full]<br>
+        [-Component <String[]>] <br>
+        [-Functionality <String[]>] <br>
+        [-Role <String[]>]<br>
+        [<CommonParameters>]<br>
+        [-showwindow <String[]>]<br>
+    <strong>Auto Completar [TAB]</strong>
+    <strong>intelicence -listadeOpções [Ctrl+ Espaço]</strong><br>
+    <hr>
+            Alias só para os nomes e não para os parametros <br>
+            new-alias -name limpa -values Clear-Host <br>
 
+            <strong>Get-Alias -definition clear-host</strong><br>
 
-
+            <strong>set-alias limpa get-host</strong> <br>
+            <strong>get-alias limpa</strong> <br>              
+           <p>Criando alias de alias</p>
+           <strong>get-alias limpa</strong> <br>              
+           set-alias w limpa
 
 
     <hr>
@@ -43,8 +63,10 @@
     <h3>Ponto de parada</h3> 
     <a href="https://www.youtube.com/watch?v=JYL1uL44zSQ"target="_blank">Curso PowerShell - 01: O Shell PowerShell</a></br>    
     <a href="https://www.youtube.com/watch?v=eKSEUc4x5YQ"target="_blank">Aula 1 - Criação de Scripts no PowerShell</a></br>    
-    <a href="https://www.youtube.com/watch?v=ud86Mr0MPk8"target="_blank">Curso PowerShell - 02: A Ajuda do PowerShell</a></br> 
+    <a href="https://www.youtube.com/watch?v=ud86Mr0MPk8"target="_blank">Curso PowerShell - 02: A Ajuda do PowerShell</a></br>
+    <a href="https://www.youtube.com/watch?v=HLcmT5ZrW5I"target="_blank">Curso PowerShell - 03: Os Alias</a></br>
 
     
 </body>
 </html>
+
